@@ -106,35 +106,23 @@ body {
   line-height: 1.6;
 }
 
-.attribution {
+.containerFooter {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr;
-  margin-top: 10px;
-  background: #0F4C5C;
+  justify-items: center;
+  background: #000;
+  width: 100%;
 }
-.attribution div {
-  grid-column: 1/2;
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  padding: 20px 0;
-  align-items: center;
-  height: 10px;
+.containerFooter h3 {
+  color: #fff;
+  text-align: center;
 }
-.attribution div span {
-  color: #F2F4F3;
-  grid-column: 1/2;
-  text-align-last: left;
-  margin-left: 10px;
-}
-.attribution div a {
+.containerFooter a {
+  color: #FF3F00;
+  text-transform: capitalize;
   text-decoration: none;
-  color: #E4572E !important;
-  grid-column: 2/5;
-  text-align-last: left;
 }
-.attribution div a:hover {
-  color: white;
+.containerFooter a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 569px) and (max-width: 768px) {
